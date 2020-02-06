@@ -7,6 +7,11 @@ app.use(express.urlencoded({extended: false}));
 app.use(express.json());
 app.use(express.static("client/build"));
 
+//API ROUTES
+
+
+//DATABASE
+
 
 app.listen(PORT, function(){
     console.log(
